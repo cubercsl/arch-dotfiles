@@ -34,11 +34,14 @@ exec --no-startup-id "xidlehook --not-when-audio --not-when-fullscreen --timer 3
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
 
-# Sound tray GUI
+# Sound
 exec --no-startup-id pasystray
 
 # Bluetooth
 exec --no-startup-id blueman-applet
+
+# Keyboard
+exec --no-startup-id polychromatic-tray-applet
 
 # Autostart Program
 exec --no-startup-id fcitx5
@@ -273,6 +276,8 @@ for_window [class="qv2ray"] floating enable
 for_window [class="Blueman-*"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="Kite"] floating enable
+for_window [class="polychromatic-controller"] floating enable
+for_window [class="Nm-connection-editor"] floating enable
 for_window [title="Welcome to PyCharm"] floating enable
 
 # Assign
