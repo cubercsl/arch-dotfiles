@@ -1,0 +1,7 @@
+configuration {
+	dpi: 144;
+	modi: "window,run,ssh,drun";
+        show-icons: true;
+	icon-theme: "Papirus";
+}
+@import "/usr/share/rofi/themes/Arc-Dark.rasi"
