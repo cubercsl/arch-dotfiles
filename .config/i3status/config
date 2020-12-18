@@ -7,11 +7,11 @@
 # If the above line is not correctly displayed, fix your editor first!
 
 general {
-	colors = true
-		interval = 5
-		color_good = "#2AA198"
-		color_bad = "#586E75"
-		color_degraded = "#DC322F"
+    colors = true
+    interval = 5
+    color_good = "#2AA198"
+    color_bad = "#586E75"
+    color_degraded = "#DC322F"
 }
 
 #order += "ipv6"
@@ -27,65 +27,58 @@ order += "memory"
 order += "tztime local"
 order += "volume master"
 cpu_usage {
-	format = "🚀 %usage "
+    format = "🚀 %usage "
 }
 
 cpu_temperature 0 {
-        format = "%degrees °C"
+    format = "%degrees °C"
     max_threshold = 65
-        path = "/sys/class/thermal/thermal_zone0/temp"
+    path = "/sys/class/thermal/thermal_zone0/temp"
 }
 
 load {
-	format = " load %1min "
-#format = "[ load: %1min, %5min, %15min ]"
-# max_threshold = 0.3
+    format = " load %1min "
+    # max_threshold = 0.3
 }
 
 disk "/" {
 # format = " hdd %avail "
-	format = " ⛁ %avail "
+    format = " ⛁ %avail "
 }
 
 ethernet _first_ {
 # if you use %speed, i3status requires root privileges
-	format_up = " lan: %ip %speed "
-		format_down = " no lan "
+    format_up = " lan: %ip %speed "
+    format_down = " no lan "
 }
 
 battery all {
-# format = "%status %percentage %remaining %emptytime"
-	format = " %status %percentage "
-		format_down = "No battery"
-		last_full_capacity = true
-		integer_battery_capacity = true
-# status_chr = ""
-		status_chr = "⚡"
-# status_bat = "bat"
-#status_bat = "☉"
-		status_bat = "😴"
-# status_unk = "?"
-		status_unk = "😑"
-# status_full = ""
-		status_full = "😊"
-		low_threshold = 15
-		threshold_type = time
+    format = " %status %percentage "
+    format_down = "No battery"
+    last_full_capacity = true
+    integer_battery_capacity = true
+    status_chr = "⚡"
+    # status_bat = "bat"
+    status_bat = "😴"
+    status_unk = "😑"
+    status_full = "😊"
+    low_threshold = 15
+    threshold_type = time
 }
 
 memory {
-	format = " 💿 %used / %available "
-		threshold_degraded = "1G"
-		format_degraded = "MEMORY < %available"
+    format = " 💿 %used / %available "
+    threshold_degraded = "1G"
+    format_degraded = "MEMORY < %available"
 }
 
 tztime local {
-	format = " 📅 %Y-%m-%d  🕑 %H:%M   "
-#format = " %d.%m. %H:%M "
+    format = " 📅 %Y-%m-%d  🕑 %H:%M "
 }
 
 volume master {
-	format = "♪:%volume"
-	device = "default"
-	mixer = "Master"
-	mixer_idx = 0
+    format = "♪:%volume"
+    device = "default"
+    mixer = "Master"
+    mixer_idx = 0
 }
