@@ -20,6 +20,6 @@
 - 文件管理器：[ranger](https://www.archlinux.org/packages/?q=ranger)
 - 截图：[flameshot](https://www.archlinux.org/packages/?q=flameshot)
 - 雷蛇键盘：[openrazer-meta](https://aur.archlinux.org/packages/openrazer-meta)(AUR) [polychromatic](https://aur.archlinux.org/packages/polychromatic)(AUR)
-- 科学上网：[qv2ray](https://aur.archlinux.org/packages/qv2ray)(AUR)(archlinxcn)
+- 科学上网：[qv2ray](https://aur.archlinux.org/packages/qv2ray)(AUR)(archlinuxcn)
 - 浏览器：[chromium](https://www.archlinux.org/packages/?q=chromium)
 - 编辑器：[visual-studio-code-bin](https://aur.archlinux.org/packages/visual-studio-code-bin)(AUR)(archlinuxcn)
