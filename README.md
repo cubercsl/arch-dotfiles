@@ -2,7 +2,7 @@
 
 我的 [Arch Linux](https://www.archlinux.org/) 下的配置文件
 
-![screenshot](Pictures/screenshot.webp)
+![screenshot](Pictures/screenshot.png)
 
 ## 参考软件清单
 - SHELL: [fish](https://www.archlinux.org/packages/?q=fish) [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
