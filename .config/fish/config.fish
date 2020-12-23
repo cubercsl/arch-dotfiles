@@ -3,4 +3,3 @@ if status is-login && not string match --quiet -e $TERM 'screen'
         exec startx -- -keeptty
     end
 end
-set -x GPG_TTY (tty)
