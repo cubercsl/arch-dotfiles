@@ -15,9 +15,10 @@
 - 通知：[dunst](https://www.archlinux.org/packages/?q=dunst)
 - 音频：[pulseaudio](https://www.archlinux.org/packages/?q=pulseaudio) [pulseaudio-alsa](https://www.archlinux.org/packages/?q=pulseaudio-alsa) [pavucontrol](https://www.archlinux.org/packages/?q=pavucontrol) [pasystray](https://www.archlinux.org/packages/?q=pasystray)
 - 蓝牙：[pulseaudio-bluetooth](https://www.archlinux.org/packages/?q=pulseaudio-bluetooth) [blueman](https://www.archlinux.org/packages/?q=blueman)
-- 输入法：[fcitx5](https://www.archlinux.org/packages/?q=fcitx5) [fcitx5-rime](https://www.archlinux.org/packages/?q=fcitx5-rime) [fcitx5-gtk](https://www.archlinux.org/packages/?q=fcitx5-gtk) [fcitx5-qt](https://www.archlinux.org/packages/?q=fcitx5-qt) [fcitx5-configtool](https://www.archlinux.org/packages/?q=fcitx5-configtool) [fcitx5-material-color](https://www.archlinux.org/packages/?q=fcitx5-material-color)
+- 输入法：[fcitx5](https://www.archlinux.org/packages/?q=fcitx5) [fcitx5-rime](https://www.archlinux.org/packages/?q=fcitx5-rime) [fcitx5-gtk](https://www.archlinux.org/packages/?q=fcitx5-gtk) [fcitx5-qt](https://www.archlinux.org/packages/?q=fcitx5-qt) [fcitx5-configtool](https://www.archlinux.org/packages/?q=fcitx5-configtool) [fcitx5-material-color](https://www.archlinux.org/packages/?q=fcitx5-material-color) 个人使用的是小鹤音形。
 - 终端模拟器：[alacritty](https://www.archlinux.org/packages/?q=alacritty)
-- 文件管理器：[ranger](https://www.archlinux.org/packages/?q=ranger)
+- 文件管理器：[pcmanfm](https://www.archlinux.org/packages/?q=pcmanfm)
+- 压缩与解压：[xarchiver](https://www.archlinux.org/packages/?=xarchiver)
 - 截图：[flameshot](https://www.archlinux.org/packages/?q=flameshot)
 - 雷蛇键盘：[openrazer-meta](https://aur.archlinux.org/packages/openrazer-meta)(AUR) [polychromatic](https://aur.archlinux.org/packages/polychromatic)(AUR)
 - 科学上网：[qv2ray](https://aur.archlinux.org/packages/qv2ray)(AUR)(archlinuxcn)
