@@ -1,3 +1,6 @@
 package bass
+package config
+package spark
+package weather
 theme default
 theme pure
