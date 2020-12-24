@@ -17,7 +17,7 @@
 - 蓝牙：[pulseaudio-bluetooth](https://www.archlinux.org/packages/?q=pulseaudio-bluetooth) [blueman](https://www.archlinux.org/packages/?q=blueman)
 - 输入法：[fcitx5](https://www.archlinux.org/packages/?q=fcitx5) [fcitx5-rime](https://www.archlinux.org/packages/?q=fcitx5-rime) [fcitx5-gtk](https://www.archlinux.org/packages/?q=fcitx5-gtk) [fcitx5-qt](https://www.archlinux.org/packages/?q=fcitx5-qt) [fcitx5-configtool](https://www.archlinux.org/packages/?q=fcitx5-configtool) [fcitx5-material-color](https://www.archlinux.org/packages/?q=fcitx5-material-color) 个人使用的是小鹤音形。
 - 终端模拟器：[alacritty](https://www.archlinux.org/packages/?q=alacritty)
-- 文件管理器：[pcmanfm](https://www.archlinux.org/packages/?q=pcmanfm)
+- 文件管理器：[pcmanfm-gtk3](https://www.archlinux.org/packages/?q=pcmanfm-gtk3) 回收站和移动介质挂载需要[gvfs](https://www.archlinux.org/packages/?q=gvfs)
 - 压缩与解压：[xarchiver](https://www.archlinux.org/packages/?=xarchiver)
 - 截图：[flameshot](https://www.archlinux.org/packages/?q=flameshot)
 - 雷蛇键盘：[openrazer-meta](https://aur.archlinux.org/packages/openrazer-meta) (AUR) [polychromatic](https://aur.archlinux.org/packages/polychromatic) (AUR)
